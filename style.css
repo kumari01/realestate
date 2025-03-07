@@ -1,0 +1,281 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/*
+F8F7FF white
+liiiiii blue 7289FE
+596ED5
+4053AC
+0D1D59
+*/
+body
+{
+    background-color: #F8F7FF;
+}
+.nav
+{
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+   background-color: #0D1D59;
+}
+.hero-section{
+    height:100vh;
+    background-image: url("https://cdn.prod.website-files.com/63a02e61e7ffb565c30bcfc7/65fa5e6535ec537dc53bd0d1_modern%20house%20ideas.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo
+{
+    font-family:cursive;
+    font-size: 25px;
+    margin-left:20px;
+    align-content: center;
+    color:#F8F7FF;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.link
+{
+    box-sizing: border-box;
+    color:#F8F7FF;
+    text-decoration:none;
+}
+.section1
+{
+    height: 500px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+.temp
+{
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#F8F7FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    border-radius: 20px;
+}
+.section1-h1
+{
+    margin-top: 20px;
+    text-align: center;
+    padding-top:20px;
+}
+.section1-p
+{
+    margin-top: 20px; 
+    text-align:center;
+    margin-bottom: 20px;
+}
+.main-button
+{
+    background-color:transparent;
+    color:#F8F7FF;
+    width:150px;
+    height:30px;
+    border:1.5px solid #6e8cfc;
+    border-radius:5px;
+}
+.section2
+{
+    background-color: #0D1D59;
+    border-radius:10px;
+    height:100vh;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+.section2-h1
+{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    padding:40px;
+    font-size: 2rem;
+    background-color: #6e8cfc;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.section2-p
+{
+    text-align: center;
+    color:white;
+    margin: 50px;
+    font-size: 24px;
+}
+.ul-list
+{
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.about
+{
+    margin-top: 10px;
+    height:270px;
+    background-color:#0D1D59;
+    border-radius:10px;
+    color:white;
+    height:100vh;
+}
+.about-h1
+{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    padding:40px;
+    font-size: 2rem;
+    background-color: #6e8cfc;
+    border-radius: 10px;
+}
+.about-p
+{
+    text-align:center;
+    padding-top:15px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.works-h1
+{
+    margin-top:10px;
+    text-align:center;
+    margin-top: 50px;
+}
+.img
+{
+   display: flex;
+   gap:30px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+.work-img
+{
+    max-width:100%;
+    height: auto;
+    max-height:300px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+.section4
+{
+    height:170px;
+    background-color: #0D1D59;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+.contact-h1
+{
+    margin-top:10px;
+    text-align:center;
+    padding-top:20px;
+    background-color:#6e8cfc;
+    border-radius:10px;
+    color:#F8F7FF;
+    
+}
+.contact-p
+{
+    text-align:center;
+    padding-top:15px;
+    margin-left:20px;
+    margin-right:20px;
+    color:#F8F7FF;
+}
+footer
+{
+    background-color: #0D1D59;
+    text-align: center;
+    color:#F8F7FF;
+    height:50px;
+    align-content: center;
+    
+}
+/*effect*/
+.main-button:hover
+{
+    background-color:#6e8cfc;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 200;
+}
+.link:hover
+{
+    text-decoration: underline;
+    color:#819cfd;
+    font-weight: 900;
+}
+.overlay-text
+{
+    margin-top: 20px;
+    text-align: center;
+    color:#0D1D59;
+    font-weight: 600;
+    background-color: antiquewhite;
+    height:24px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4px;
+    border-radius: 10px;
+}
+.overlay-text:hover
+{
+    background-color: #0D1D59;
+    color:white;
+}
+.work-img:hover
+{
+    transform: scale(1.08);
+}
+.section4
+{
+    height:100vh;
+    
+}
+.contact-h1{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    padding:40px;
+    font-size: 2rem;
+    background-color: #6e8cfc;
+}
+.cont-sec{
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-sec img {
+    height:500px;
+    width:550px;
+    padding:50px;
+}
